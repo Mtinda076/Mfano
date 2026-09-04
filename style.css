@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: aquamarine;
+    text-align: end;
+}
+body{
+    background-image: url url(../../Downloads/naa.jpg);
+    background-color: aquamarine;
+}
+img{
+    width: 600px;
+    height: 600px;
+}
+
+
+.nav-link a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+    gap: 10px;
+}
+
+.sect{
+    width: 800px auto;
+    height: 300px;
+    background-image: url(b.webp);
+    background-position: center;
+    background-size: cover ;
+    
+    color: rgb(229, 245, 9);
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.sect h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sect button{
+    color: blue;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background-color: rgb(170, 211, 211);
+   
+}
+
+.sect button:hover{
+    color: black;
+    background-color: rgb(192, 108, 13);
+}
